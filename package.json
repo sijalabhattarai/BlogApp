@@ -1,0 +1,19 @@
+{
+  "name": "sijala",
+  "version": "1.0.0",
+  "description": "It's sijala",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sijala",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^15.2.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0"
+  }
+}
