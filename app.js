@@ -25,6 +25,7 @@ app.set('view engine', 'ejs');
 
 //middleware
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
 
 //routes
 app.get('/', (req, res) => {
